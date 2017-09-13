@@ -1,0 +1,40 @@
+/*@import "compass/css3"; */
+
+.table-editable {
+  position: relative;
+  
+  .glyphicon {
+    font-size: 20px;
+  }
+}
+
+.table-remove {
+  color: darkred;
+  cursor: pointer;
+  
+  &:hover {
+    color: red;
+  }
+}
+
+.table-up, .table-down {
+  color: #007;
+  cursor: pointer;
+  
+  &:hover {
+    color: #00f;
+  }
+}
+
+.table-add {
+  color: darkgreen;
+  cursor: pointer;
+  /*
+  position: absolute;
+  top: 8px;
+  right: 0;
+  */
+  &:hover {
+    color: green;
+  }
+}
